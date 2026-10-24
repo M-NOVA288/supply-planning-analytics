@@ -1,0 +1,154 @@
+material_plant_key,werks,rule_id,rule_name,severity,doc,detail
+M100008|1000,1000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100013|1000,1000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100020|3000,3000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100023|3000,3000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100046|3000,3000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100074|1000,1000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100088|3000,3000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100107|1000,1000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100109|3000,3000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100110|1000,1000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100117|3000,3000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100139|3000,3000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100150|2000,2000,DQ01,Purchased part with no planned delivery time,HIGH,,Planned delivery time is 0 days for an externally procured part
+M100050|1000,1000,DQ02,A-class material with no safety stock,HIGH,,ABC class A with safety stock 0
+M100056|1000,1000,DQ02,A-class material with no safety stock,HIGH,,ABC class A with safety stock 0
+M100010|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100016|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100027|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100035|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100036|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100046|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100050|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100054|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100059|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100062|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100066|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100071|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100077|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100086|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100090|3000,3000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100092|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100093|3000,3000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100095|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100105|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100109|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100120|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100121|3000,3000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100127|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100128|1000,1000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100135|3000,3000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100139|2000,2000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100150|3000,3000,DQ03,Fixed lot size procedure with lot size of zero,HIGH,,Lot size FX but fixed lot size is 0
+M100005|2000,2000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100009|1000,1000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100022|2000,2000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100047|2000,2000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100049|1000,1000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100071|3000,3000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100120|3000,3000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100128|2000,2000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100141|1000,1000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100147|1000,1000,DQ04,No MRP controller assigned,MEDIUM,,MRP controller is blank
+M100015|2000,2000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 2434 units consumed in the last 12 months
+M100032|2000,2000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 4152 units consumed in the last 12 months
+M100037|3000,3000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 6153 units consumed in the last 12 months
+M100061|2000,2000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 2241 units consumed in the last 12 months
+M100077|2000,2000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 956 units consumed in the last 12 months
+M100080|1000,1000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 1556 units consumed in the last 12 months
+M100083|2000,2000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 3027 units consumed in the last 12 months
+M100088|2000,2000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 1834 units consumed in the last 12 months
+M100128|3000,3000,DQ05,Material set to no planning but still consumed,HIGH,,MRP type ND but 290 units consumed in the last 12 months
+M100001|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000004,"PO 4500000004 due 2026-09-17, 24 units still open (14 days late)"
+M100002|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000009,"PO 4500000009 due 2026-09-26, 32 units still open (5 days late)"
+M100004|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000013,"PO 4500000013 due 2026-09-13, 64 units still open (18 days late)"
+M100009|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000028,"PO 4500000028 due 2026-09-17, 40 units still open (14 days late)"
+M100014|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000042,"PO 4500000042 due 2026-09-26, 55 units still open (5 days late)"
+M100014|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000044,"PO 4500000044 due 2026-09-25, 34 units still open (6 days late)"
+M100016|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000050,"PO 4500000050 due 2026-09-17, 181 units still open (14 days late)"
+M100016|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000053,"PO 4500000053 due 2026-09-18, 189 units still open (13 days late)"
+M100022|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000062,"PO 4500000062 due 2026-09-30, 227 units still open (1 days late)"
+M100028|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000083,"PO 4500000083 due 2026-09-17, 29 units still open (14 days late)"
+M100029|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000085,"PO 4500000085 due 2026-09-22, 723 units still open (9 days late)"
+M100039|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000105,"PO 4500000105 due 2026-09-17, 165 units still open (14 days late)"
+M100040|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000110,"PO 4500000110 due 2026-09-14, 220 units still open (17 days late)"
+M100042|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000117,"PO 4500000117 due 2026-09-14, 181 units still open (17 days late)"
+M100042|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000122,"PO 4500000122 due 2026-09-17, 1562 units still open (14 days late)"
+M100043|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000124,"PO 4500000124 due 2026-09-29, 338 units still open (2 days late)"
+M100045|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000127,"PO 4500000127 due 2026-09-14, 226 units still open (17 days late)"
+M100048|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000140,"PO 4500000140 due 2026-09-12, 69 units still open (19 days late)"
+M100050|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000147,"PO 4500000147 due 2026-09-30, 97 units still open (1 days late)"
+M100052|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000151,"PO 4500000151 due 2026-09-27, 221 units still open (4 days late)"
+M100059|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000163,"PO 4500000163 due 2026-09-30, 89 units still open (1 days late)"
+M100062|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000176,"PO 4500000176 due 2026-09-29, 4835 units still open (2 days late)"
+M100064|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000182,"PO 4500000182 due 2026-09-28, 812 units still open (3 days late)"
+M100064|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000183,"PO 4500000183 due 2026-09-16, 1062 units still open (15 days late)"
+M100065|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000191,"PO 4500000191 due 2026-09-28, 797 units still open (3 days late)"
+M100067|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000205,"PO 4500000205 due 2026-09-23, 794 units still open (8 days late)"
+M100068|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000210,"PO 4500000210 due 2026-09-27, 1202 units still open (4 days late)"
+M100071|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000221,"PO 4500000221 due 2026-09-15, 1207 units still open (16 days late)"
+M100073|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000225,"PO 4500000225 due 2026-09-25, 1417 units still open (6 days late)"
+M100075|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000234,"PO 4500000234 due 2026-09-12, 1616 units still open (19 days late)"
+M100077|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000245,"PO 4500000245 due 2026-09-17, 79 units still open (14 days late)"
+M100084|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000255,"PO 4500000255 due 2026-09-21, 77 units still open (10 days late)"
+M100088|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000262,"PO 4500000262 due 2026-09-30, 99 units still open (1 days late)"
+M100094|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000281,"PO 4500000281 due 2026-09-13, 98 units still open (18 days late)"
+M100095|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000288,"PO 4500000288 due 2026-09-12, 303 units still open (19 days late)"
+M100098|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000299,"PO 4500000299 due 2026-09-29, 667 units still open (2 days late)"
+M100098|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000300,"PO 4500000300 due 2026-09-22, 570 units still open (9 days late)"
+M100100|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000302,"PO 4500000302 due 2026-09-12, 99 units still open (19 days late)"
+M100104|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000312,"PO 4500000312 due 2026-09-21, 251 units still open (10 days late)"
+M100104|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000313,"PO 4500000313 due 2026-09-27, 151 units still open (4 days late)"
+M100106|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000322,"PO 4500000322 due 2026-09-14, 2072 units still open (17 days late)"
+M100130|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000398,"PO 4500000398 due 2026-09-29, 23 units still open (2 days late)"
+M100138|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000418,"PO 4500000418 due 2026-09-19, 4216 units still open (12 days late)"
+M100138|2000,2000,DQ06,Purchase order past its delivery date,MEDIUM,4500000419,"PO 4500000419 due 2026-09-26, 806 units still open (5 days late)"
+M100142|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000434,"PO 4500000434 due 2026-09-16, 837 units still open (15 days late)"
+M100144|1000,1000,DQ06,Purchase order past its delivery date,MEDIUM,4500000437,"PO 4500000437 due 2026-09-17, 572 units still open (14 days late)"
+M100146|3000,3000,DQ06,Purchase order past its delivery date,MEDIUM,4500000443,"PO 4500000443 due 2026-09-29, 766 units still open (2 days late)"
+M100011|1000,1000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000028,Planned order 10000028 should have started 2026-09-25
+M100015|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000038,Planned order 10000038 should have started 2026-09-19
+M100017|2000,2000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000041,Planned order 10000041 should have started 2026-09-17
+M100018|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000046,Planned order 10000046 should have started 2026-09-19
+M100031|1000,1000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000080,Planned order 10000080 should have started 2026-09-30
+M100033|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000084,Planned order 10000084 should have started 2026-09-24
+M100035|1000,1000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000085,Planned order 10000085 should have started 2026-09-22
+M100047|2000,2000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000111,Planned order 10000111 should have started 2026-09-30
+M100057|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000138,Planned order 10000138 should have started 2026-09-28
+M100061|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000145,Planned order 10000145 should have started 2026-09-28
+M100064|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000151,Planned order 10000151 should have started 2026-09-22
+M100071|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000167,Planned order 10000167 should have started 2026-09-22
+M100094|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000217,Planned order 10000217 should have started 2026-09-22
+M100096|2000,2000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000222,Planned order 10000222 should have started 2026-09-27
+M100107|2000,2000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000249,Planned order 10000249 should have started 2026-09-23
+M100118|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000279,Planned order 10000279 should have started 2026-09-23
+M100121|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000284,Planned order 10000284 should have started 2026-09-22
+M100121|3000,3000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000285,Planned order 10000285 should have started 2026-09-23
+M100141|1000,1000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000325,Planned order 10000325 should have started 2026-09-30
+M100143|1000,1000,DQ07,"Planned order past its start date, not converted",MEDIUM,10000327,Planned order 10000327 should have started 2026-09-17
+M100019|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000056,PO 4500000056 open for 50 units of a deleted material
+M100027|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000078,PO 4500000078 open for 256 units of a deleted material
+M100027|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000079,PO 4500000079 open for 121 units of a deleted material
+M100027|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000080,PO 4500000080 open for 50 units of a deleted material
+M100041|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000112,PO 4500000112 open for 716 units of a deleted material
+M100041|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000113,PO 4500000113 open for 534 units of a deleted material
+M100041|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000114,PO 4500000114 open for 300 units of a deleted material
+M100041|1000,1000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000115,PO 4500000115 open for 50 units of a deleted material
+M100041|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000116,PO 4500000116 open for 50 units of a deleted material
+M100073|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000225,PO 4500000225 open for 1417 units of a deleted material
+M100073|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000226,PO 4500000226 open for 50 units of a deleted material
+M100073|3000,3000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000227,PO 4500000227 open for 2741 units of a deleted material
+M100073|3000,3000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000228,PO 4500000228 open for 4871 units of a deleted material
+M100073|3000,3000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000229,PO 4500000229 open for 50 units of a deleted material
+M100075|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000234,PO 4500000234 open for 1616 units of a deleted material
+M100075|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000235,PO 4500000235 open for 2381 units of a deleted material
+M100075|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000236,PO 4500000236 open for 1264 units of a deleted material
+M100075|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000237,PO 4500000237 open for 50 units of a deleted material
+M100075|3000,3000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000238,PO 4500000238 open for 3204 units of a deleted material
+M100075|3000,3000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000239,PO 4500000239 open for 1851 units of a deleted material
+M100075|3000,3000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000240,PO 4500000240 open for 50 units of a deleted material
+M100113|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000343,PO 4500000343 open for 370 units of a deleted material
+M100113|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000344,PO 4500000344 open for 291 units of a deleted material
+M100113|2000,2000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000345,PO 4500000345 open for 50 units of a deleted material
+M100113|3000,3000,DQ08,Open purchase order on a material flagged for deletion,LOW,4500000346,PO 4500000346 open for 50 units of a deleted material

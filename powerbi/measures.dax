@@ -1,0 +1,91 @@
+// =============================================================================
+// DAX measures for the Supply Planning Analytics report.
+// Create a table called _Measures (Enter data, one blank column) and add each
+// measure below to it. Table and column names match the CSVs in powerbi/data/.
+// =============================================================================
+
+// ---------- Inventory ----------
+Inventory Value =
+SUM ( fact_availability[stock_value] )
+
+Excess Value =
+CALCULATE ( [Inventory Value], fact_availability[availability_status] = "EXCESS" )
+
+Excess % =
+DIVIDE ( [Excess Value], [Inventory Value] )
+
+Weighted Days of Supply =
+VAR ValueWithDemand =
+    CALCULATE ( [Inventory Value], fact_availability[demand_daily] > 0 )
+VAR DailyDemandValue =
+    SUMX (
+        fact_availability,
+        fact_availability[demand_daily] * RELATED ( dim_material_plant[std_price] )
+    )
+RETURN
+    DIVIDE ( ValueWithDemand, DailyDemandValue )
+
+Shortage Risks =
+CALCULATE (
+    COUNTROWS ( fact_availability ),
+    fact_availability[availability_status] IN { "SHORTAGE_RISK", "STOCKOUT" }
+)
+
+Stockouts =
+CALCULATE ( COUNTROWS ( fact_availability ), fact_availability[availability_status] = "STOCKOUT" )
+
+// ---------- Service ----------
+OTIF % =
+DIVIDE ( SUM ( fact_deliveries[otif_flag] ), COUNTROWS ( fact_deliveries ) )
+
+Fill Rate % =
+DIVIDE ( SUM ( fact_deliveries[delivered_qty] ), SUM ( fact_deliveries[order_qty] ) )
+
+// ---------- Supply ----------
+Open PO Qty =
+SUM ( fact_availability[open_po_qty] )
+
+Overdue PO Qty =
+SUM ( fact_availability[overdue_po_qty] )
+
+Overdue PO % of Open =
+DIVIDE ( [Overdue PO Qty], [Open PO Qty] )
+
+// ---------- MRP data quality ----------
+DQ Findings =
+COUNTROWS ( fact_dq_issues )
+
+DQ High Severity =
+CALCULATE ( [DQ Findings], fact_dq_issues[severity] = "HIGH" )
+
+DQ Clean % =
+1
+    - DIVIDE (
+        DISTINCTCOUNT ( fact_dq_issues[material_plant_key] ),
+        DISTINCTCOUNT ( dim_material_plant[material_plant_key] )
+    )
+
+// ---------- Demand and forecast ----------
+Actual Demand =
+CALCULATE ( SUM ( fact_demand[qty] ), fact_demand[series] = "Actual" )
+
+Forecast Demand =
+CALCULATE ( SUM ( fact_demand[qty] ), fact_demand[series] = "Forecast" )
+
+Demand Trend 3M vs Prior 3M =
+VAR LastActual =
+    CALCULATE ( MAX ( fact_demand[period] ), fact_demand[series] = "Actual", ALL ( fact_demand ) )
+VAR Recent =
+    CALCULATE (
+        [Actual Demand],
+        fact_demand[period] > EDATE ( LastActual, -3 ),
+        fact_demand[period] <= LastActual
+    )
+VAR Prior =
+    CALCULATE (
+        [Actual Demand],
+        fact_demand[period] > EDATE ( LastActual, -6 ),
+        fact_demand[period] <= EDATE ( LastActual, -3 )
+    )
+RETURN
+    DIVIDE ( Recent - Prior, Prior )

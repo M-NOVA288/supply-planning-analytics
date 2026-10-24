@@ -1,0 +1,4 @@
+werks,plant_name,plant_materials,inventory_value,excess_value,excess_pct,weighted_days_of_supply,stockouts,shortage_risks,otif_pct,fill_rate_pct,overdue_po_pct,dq_findings,dq_clean_pct,forecast_accuracy_pct
+1000,Houston DC,106,2588367.0,407425.0,15.7,65.4,0,19,88.9,99.3,10.8,53,60.4,82.4
+2000,Charlotte Plant,108,1950979.0,268674.0,13.8,54.9,0,17,86.4,98.5,14.8,55,59.3,76.8
+3000,Rosemont DC,113,3106538.0,815347.0,26.2,59.5,1,21,85.8,98.1,6.6,45,68.1,79.2
